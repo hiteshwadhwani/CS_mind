@@ -1,0 +1,53 @@
+.faqs .faqs-list {
+    padding: 0;
+    list-style: none;
+  }
+  
+  .faqs .faqs-list li {
+    border-bottom: 1px solid #eee;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+  }
+  
+  .faqs .faqs-list a {
+    display: block;
+    position: relative;
+    font-family: #7cc576;
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 400;
+    padding-right: 25px;
+  }
+  
+  .faqs .faqs-list i {
+    font-size: 24px;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  
+  .faqs .faqs-list p {
+    margin-bottom: 0;
+    padding: 10px 0 0 0;
+  }
+  
+  .faqs .faqs-list .icon-show {
+    display: none;
+  }
+  
+  .faqs .faqs-list a.collapsed {
+    color: #343a40;
+  }
+  
+  .faqs .faqs-list a.collapsed:hover {
+    color: #7cc576;
+  }
+  
+  .faqs .faqs-list a.collapsed .icon-show {
+    display: inline-block;
+  }
+  
+  .faqs .faqs-list a.collapsed .icon-close {
+    display: none;
+  }
+  

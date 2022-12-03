@@ -1,0 +1,1 @@
+export const API_URL='http://cs-mind.herokuapp.com/'

@@ -1,0 +1,13 @@
+@media (max-width:649px){
+   .smart{
+       font-size:smaller;
+       padding-top:15px
+   }
+}
+
+@media (max-width:350px){
+    .smart{
+        font-size:small;
+        padding-top:15px
+    }
+ }

@@ -1,0 +1,11 @@
+.fw-medium{
+    text-align: center;
+    
+  }
+
+@media (max-width:700px){
+  .fw-medium{
+    text-align: center;
+    
+  }
+}  

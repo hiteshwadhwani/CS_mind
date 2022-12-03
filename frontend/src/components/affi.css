@@ -1,0 +1,139 @@
+.featured {
+    padding: 40px 0 0 0;
+    background: white;
+  }
+  
+  .featured .nav-tabs {
+    border: 0;
+  }
+  
+  .featured .nav-link {
+    border: 0;
+    padding: 20px;
+    color: #151515;
+    transition: 0.3s;
+  }
+  
+  .featured .nav-link h4 {
+    font-size: 18px;
+    font-weight: 600;
+    transition: 0.3s;
+  }
+  
+  .featured .nav-link:hover h4 {
+    color: #94a02c;
+  }
+  
+  .featured .nav-link p {
+    font-size: 14px;
+    margin-bottom: 0;
+  }
+  .nav-link p {
+    color: black;
+  }
+  
+  .featured .nav-link.active {
+    box-shadow: 5px 0 25px rgba(33, 75, 211, 0.8);
+  }
+  
+  .featured .nav-link.active h4 {
+    color:  rgba(133, 45, 45, 0.8);
+  }
+  
+  .featured .tab-pane.active {
+    -webkit-animation: slide-down 0.5s ease-out;
+    animation: slide-down 0.5s ease-out;
+  }
+  
+  @-webkit-keyframes slide-down {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  
+  @keyframes slide-down {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+
+  
+.section-title {
+  text-align: center;
+  padding-bottom: 40px;
+}
+
+.section-title h2 {
+  font-size: 32px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 15px;
+  padding-bottom: 0;
+  color: #151515;
+}
+
+.section-title p {
+  margin-bottom: 0;
+  color: #aeaeae;
+}
+
+
+
+.faq .faq-list {
+    padding: 0;
+    list-style:none;
+  }
+  
+  .faq .faq-list li {
+    border-bottom: 1px solid rgb(255, 255, 255);
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+  }
+  
+  .faq .faq-list a {
+    display: block;
+    position: relative;
+    font-family: #7cc576;
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 400;
+    padding-right: 25px;
+  }
+  
+  .faq .faq-list i {
+    font-size: 24px;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  
+  .faq .faq-list p {
+    margin-bottom: 0;
+    padding: 10px 0 0 0;
+  }
+  
+  .faq .faq-list .icon-show {
+    display: none;
+  }
+  
+  .faq .faq-list a.collapsed {
+    color: #343a40;
+  }
+  
+  .faq .faq-list a.collapsed:hover {
+    color: #7cc576;
+  }
+  
+  .faq .faq-list a.collapsed .icon-show {
+    display: inline-block;
+  }
+  
+  .faq .faq-list a.collapsed .icon-close {
+    display: none;
+  }

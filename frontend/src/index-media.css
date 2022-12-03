@@ -1,0 +1,228 @@
+/*########### Laptop ###########*/
+
+@media (max-width: 1024px) {
+    /************ Header & Navigation ************/
+  
+    
+  
+    /************ Call-to-Action ************/
+  
+    .cta-img-ctr {
+      min-width: 410px;
+    }
+  
+    .cta-info {
+      margin-right: 25px;
+    }
+  
+    .cta-text-header {
+      font-size: 2.3rem;
+      line-height: 50px;
+    }
+  
+    .cta-btn {
+      padding: 17.5px 60px;
+      font-size: 0.9rem;
+    }
+  
+   
+  
+    
+  
+   
+    
+  }
+  
+  /*########### Tablet ###########*/
+  
+  @media (max-width: 768px) {
+    /************ Global Styles ************/
+    .sec-4 {
+      margin-top: -165px;
+    }
+  
+    /************ Call-to-Action ************/
+  
+    .cta {
+      flex-direction: column;
+    }
+  
+    .cta-info {
+      text-align: center;
+      width: 90%;
+      margin: 0 0 60px;
+    }
+  
+    .cta-text-header {
+      font-size: 3.1rem;
+      line-height: 70px;
+    }
+  
+    .cta-img-ctr {
+      width: 550px;
+    }
+  
+    
+    
+   
+  
+    /************ Footer ************/
+  
+   
+  
+    .footer-links {
+      margin-bottom: 50px;
+    }
+  
+    .company-info {
+      display: grid;
+      grid-auto-flow: column;
+      grid-column-gap: 30px;
+    }
+  
+    .footer-logo-ctr {
+      align-self: end;
+      margin-bottom: 20px;
+    }
+  
+    .social-media-links {
+      grid-row: 2;
+      grid-column: 1;
+      align-self: center;
+      margin-top: 0;
+    }
+  }
+  
+  
+   
+  /*########### Mobile Large ###########*/
+  
+  @media (max-width: 600px) {
+    /************ Global Styles ************/
+    
+    .section-text {
+      max-width: 100%;
+      padding: 0 30px;
+    }
+  
+    .sec-4 {
+      margin-top: -200px;
+    }
+  
+    /************ Header & Navigation ************/
+  
+    
+        .logo-ctr {
+      margin: 0;
+    }
+  
+    .login-toggler-ctr {
+      display: block;
+      width: 25px;
+      box-sizing: content-box;
+    }
+  
+    /************ Call-to-Action ************/
+  
+    .cta {
+      padding-top: 30px;
+    }
+  
+    .cta-img-ctr {
+      width: 90%;
+      min-width: 0;
+    }
+  
+    .cta-text-header {
+      font-size: 2.3rem;
+      line-height: 50px;
+    }
+  
+  
+  
+    
+  
+    /************ Footer ************/
+  
+  
+  
+    
+  
+    .link-col {
+      margin: 0 15px;
+    }
+  
+    .company-info {
+      grid-auto-flow: row;
+      justify-content: center;
+      text-align: center;
+    }
+  
+    
+  
+    .social-media-links {
+      justify-self: center;
+    }
+  
+    .social-media-icon-ctr:last-child {
+      margin-right: 0;
+    }
+  
+    .copyright {
+      margin-top: 15px;
+    }
+  }
+  
+  /*########### Mobile Medium ###########*/
+  
+  @media (max-width: 376px) {
+    /************ Global Styles ************/
+  
+    .sub-heading {
+      font-size: 1.9rem;
+    }
+  
+   
+  
+   
+  
+    /************ Brands ************/
+  
+    .brands {
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+  
+    .brand-img-ctr {
+      width: 100px;
+      margin: 0 5px;
+    }
+  
+    /************ Footer ************/
+  
+    
+  
+    .link-col {
+      margin-bottom: 20px;
+    }
+  
+    .company-desc-text {
+      width: 240px;
+      padding: 0 20px;
+    }
+  }
+  
+  /*########### Mobile Small ###########*/
+  
+  @media (max-width: 321px) {
+    /************ Global Styles ************/
+  
+    .section-text {
+      padding: 0 20px;
+    }
+  
+    
+  
+   
+  
+  }
